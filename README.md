@@ -227,7 +227,12 @@ update the Webpack config to pass jsx files
 
 https://jsramblings.com/creating-a-react-app-with-webpack/
 https://webpack.js.org/guides/getting-started/#basic-setup
+https://blog.51cto.com/huge/5359133
 
 ### babel
 
 https://ithelp.ithome.com.tw/articles/10240250
+
+
+### CSS
+https://stackoverflow.com/questions/42355366/webpack-css-not-applied

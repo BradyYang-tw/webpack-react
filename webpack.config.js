@@ -6,7 +6,7 @@ module.exports = {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "http://10.31.99.119:3000",
+    publicPath: "http://localhost:3000",
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -21,6 +21,8 @@ module.exports = {
         exclude: /node_modules/,
         use: ["babel-loader"],
       },
+      { test: /\.css$/, use: [ 'style-loader', 'css-loader' ] },
+      { test: /\.ts$/, use: 'ts-loader' },
     ],
   },
   // pass all js files through Babel

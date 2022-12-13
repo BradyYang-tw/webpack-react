@@ -1,0 +1,56 @@
+.checkList{
+    width: 80%;
+    margin-top: 10vw;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    
+}
+.input {
+    width: 100%;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.add-btn {
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+.item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+.item:hover{
+    background-color: beige;
+    z-index: 100;
+}
+.item-btn {
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+}
+.btn-group {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
